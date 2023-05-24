@@ -1,0 +1,45 @@
+:root {
+	--color-background: linear-gradient(to bottom, #fddb76 0%,#17a2b8 60%);
+	--color-gray-900: #131010;
+	--color-gray-700: #6c757d;
+	--color-gray-100: #f8f9fa;
+	--color-yellow-900: #ffc107;
+	--color-blue-900: #17a2b8;
+	--color-blue-600: #23b4cb;
+  font-size: 62.5%;
+}
+
+/* 16px = 1rem; */
+/* 10px = 1rem */
+
+/* 32px 3.2rem */
+/* 524px 52.4rem */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+  background-attachment: fixed;
+  color: var(--color-gray-900);
+  -webkit-font-smoothing: antialiased;
+
+  overflow-x: hidden;
+}
+
+body, input, button, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

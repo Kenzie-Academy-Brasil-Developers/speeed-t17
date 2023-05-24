@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  color: var(--color-gray-100);
+  text-align: center;
+}
+
+.container > div {
+  background-color: var(--color-blue-900);
+  box-shadow: 5px 2px 30px 3px rgba(30, 30, 30, 0.25);
+  border-radius: 1.8rem;
+  max-width: 60rem;
+}
+
+.cards {
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
