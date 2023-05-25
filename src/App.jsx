@@ -3,7 +3,7 @@ import { CoverageSection } from './components/Sections/CoverageSection'
 import { FeedbacksSection } from './components/Sections/FeedbacksSection'
 import { HomeSection } from './components/Sections/HomeSection'
 
-import './styles/reset.css'
+import './styles/index.css'
 
 export const App = () => {
   return (

@@ -1,5 +1,6 @@
 import styles from './styles.module.css'
 import logo from '../../assets/logo.svg'
+import { Button } from '../Button'
 
 export const Header = () => {
   return(
@@ -9,7 +10,7 @@ export const Header = () => {
         alt="Logo da speeed que é um carrinho de entrega na cor branca e uma letra S em azul" 
       />
 
-      <button>Cadastre-se</button>
+      <Button type="button">Cadastre-se</Button>
     </header>
   )
 }

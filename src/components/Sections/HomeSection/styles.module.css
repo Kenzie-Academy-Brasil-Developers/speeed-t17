@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  min-height: 50vh;
+}
+
+.container img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.container > div {
+  max-width: 735px;
+  margin-top: 4rem;
+}
+
+.container p {
+  font-size: 4.7rem;
+}
