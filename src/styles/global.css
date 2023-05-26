@@ -1,13 +1,27 @@
 h1 {
   font-weight: 700;
-  font-size: 7rem;
+  font-size: clamp(5rem, 10vw, 7rem);
 }
 
 h2 {
   font-weight: 500;
-  font-size: 4.5rem;
+  font-size: clamp(3.5rem, 10vw, 4.5rem);
 }
 
 .container {
-  padding: 3rem;
+  padding: clamp(0rem, 2vw, 3rem);
 }
+
+
+/* clamp(min(30px, 20), calc(20px -30) ,max()) */
+/* clamp(50px, 10vw, 70px) */
+
+/* 109.2px  -> 70px */
+/* 66px -> 66px */
+/* 48.5px -> 50px */
+
+/* 50px X 70px */
+
+/* %
+vw
+vh */

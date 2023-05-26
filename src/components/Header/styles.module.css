@@ -4,9 +4,13 @@
   align-items: center;
   flex-wrap: wrap;
 
-  padding: 6rem;
+  padding: 1rem clamp(1rem, 5vw, 6rem);
 }
 
 .header img {
-  width: 270px;
+  width: clamp(150px, 100%, 270px);
+}
+
+.header button {
+  margin-top: 10px;
 }

@@ -20,3 +20,13 @@
 .container p {
   font-size: 4.7rem;
 }
+
+@media(max-width: 360px) {
+  .container {
+      flex-direction: column-reverse;
+  }
+
+  .container img {
+    position: initial;
+  }
+}

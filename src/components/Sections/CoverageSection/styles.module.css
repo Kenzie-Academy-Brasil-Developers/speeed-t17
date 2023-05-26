@@ -20,6 +20,7 @@
 }
 
 .container img {
+  width: clamp(250px, 100%, 500px);
   object-fit: contain;
 }
 
